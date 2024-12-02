@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "C:\Users\grego\uni\Entprellen_Taster\lampe_blinken\labels.tmp" -fI -W+ie -C V2E -o "C:\Users\grego\uni\Entprellen_Taster\lampe_blinken\Entprellen_Taster.hex" -d "C:\Users\grego\uni\Entprellen_Taster\lampe_blinken\Entprellen_Taster.obj" -e "C:\Users\grego\uni\Entprellen_Taster\lampe_blinken\Entprellen_Taster.eep" -m "C:\Users\grego\uni\Entprellen_Taster\lampe_blinken\Entprellen_Taster.map" "C:\Users\grego\uni\Entprellen_Taster\lampe_blinken\Entprellen_Taster.asm"

@@ -1,0 +1,12 @@
+
+AVRASM ver. 2.1.42  C:\Users\grego\uni\Entprellen_Taster\lampe_blinken\Entprellen_Taster.asm Mon Dec 02 16:18:25 2024
+
+
+EQU  DDRC         00000007
+EQU  PORTC        00000008
+EQU  LED_PIN      00000005
+CSEG main         00000001
+CSEG loop         00000003
+CSEG delay        0000000a
+CSEG outer_loop   0000000b
+CSEG inner_loop   0000000c

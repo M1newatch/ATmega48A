@@ -1,8 +1,8 @@
 ; Define Constants
-.equ DDRC, 0x07        ; Data Direction Register for Port C
-.equ PORTC, 0x08       ; Output Register for Port C
+.equ DDRC=0x07        ; Data Direction Register for Port C
+.equ PORTC=0x08       ; Output Register for Port C
 
-.equ LED_PIN, 5        ; Pin 5 of PORTC
+.equ LED_PIN=5        ; Pin 5 of PORTC
 
 .org 0x00              ; Start address of the program
 

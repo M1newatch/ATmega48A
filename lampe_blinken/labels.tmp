@@ -1,0 +1,27 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>Unknown</DEVICE>
+ <WORKING_DIR>C:\Users\grego\uni\Entprellen_Taster\lampe_blinken</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\grego\uni\Entprellen_Taster\lampe_blinken\Entprellen_Taster.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\grego\uni\Entprellen_Taster\lampe_blinken\Entprellen_Taster.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\grego\uni\Entprellen_Taster\lampe_blinken\Entprellen_Taster.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\grego\uni\Entprellen_Taster\lampe_blinken\Entprellen_Taster.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>C:\Users\grego\uni\Entprellen_Taster\lampe_blinken\Entprellen_Taster.asm</FILE><LINE>11</LINE></main>
+  <loop><FILE>C:\Users\grego\uni\Entprellen_Taster\lampe_blinken\Entprellen_Taster.asm</FILE><LINE>16</LINE></loop>
+  <delay><FILE>C:\Users\grego\uni\Entprellen_Taster\lampe_blinken\Entprellen_Taster.asm</FILE><LINE>31</LINE></delay>
+  <outer_loop><FILE>C:\Users\grego\uni\Entprellen_Taster\lampe_blinken\Entprellen_Taster.asm</FILE><LINE>34</LINE></outer_loop>
+  <inner_loop><FILE>C:\Users\grego\uni\Entprellen_Taster\lampe_blinken\Entprellen_Taster.asm</FILE><LINE>36</LINE></inner_loop>
+ </LABELS>
+</ASSEMBLER_INFO>
