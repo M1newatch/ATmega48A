@@ -1,26 +1,21 @@
 #include <avr/io.h>
-#include <util/delay.h>
-
-#define LED_DELAY 200 // Delay in milliseconds
 
 int main(void) {
-    // Configure all LED pins as outputs
-    // Assuming LEDs are connected to PORTD and PORTC
-    DDRD = 0xFF; // Set all pins on PORTD as output
-    DDRC = 0xFF; // Set all pins on PORTC as output
+    // Configure anodes as outputs
+    DDRC = 0x3F; // PC0-PC5 as output (0b00111111)
+    DDRD = 0xF1; // PD0 and PD4-PD7 as output (0b11110001)
 
+    // Configure cathodes as outputs
+    DDRB = (1 << PB1) | (1 << PB2); // PB1 and PB2 as output
+
+    // Turn on all LEDs
+    PORTC = 0x3F; // Set PC0-PC5 high
+    PORTD = 0xF1; // Set PD0 and PD4-PD7 high
+    PORTB &= ~((1 << PB1) | (1 << PB2)); // Set PB1 and PB2 low
+
+    // Infinite loop
     while (1) {
-        // Flash LEDs on PORTD
-        for (uint8_t i = 0; i < 8; i++) {
-            PORTD = (1 << i); // Turn on one LED at a time
-            _delay_ms(LED_DELAY); // Wait
-        }
-
-        // Flash LEDs on PORTC
-        for (uint8_t i = 0; i < 8; i++) {
-            PORTC = (1 << i); // Turn on one LED at a time
-            _delay_ms(LED_DELAY); // Wait
-        }
+        // Nothing to do here; LEDs remain ON
     }
 
     return 0; // Should never reach here
