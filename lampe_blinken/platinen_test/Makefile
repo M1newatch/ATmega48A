@@ -6,8 +6,9 @@ MCU_dude=m48
 #PROGRAMMER=avrispmkII
 PROGRAMMER=usbasp
 #auskommentieren für automatische Wahl
-PORT=-P usb
-BAUD=-B115200
+#PORT=-P usb
+BAUD=-B125kHz
+#BAUD=-B115200
 
 #Ab hier nichts verändern
 OBJECTS=$(SOURCES:.c=.o)

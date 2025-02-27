@@ -9,7 +9,7 @@ int main(void) {
     DDRB = (1 << PB1) | (1 << PB2); // PB1 and PB2 as output
 
     // Turn on all LEDs
-    PORTC = 0x3F; // Set PC0-PC5 high
+    PORTC = 0x00; // Set PC0-PC5 high
     PORTD = 0xF1; // Set PD0 and PD4-PD7 high
     PORTB &= ~((1 << PB1) | (1 << PB2)); // Set PB1 and PB2 low
 
